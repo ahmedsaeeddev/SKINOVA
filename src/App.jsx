@@ -5,7 +5,7 @@ import VisionAndValues from './components/Visions.jsx';
 import CustomDesigns from './components/Customs.jsx';
 import FAQSection from './components/Faqs.jsx';
 import Footer from './components/Footer.jsx';
-import './app.css'
+import './App.css'
 
 const App = () => {
   return (
