@@ -40,8 +40,8 @@ const Navbar = () => {
         </nav>
       </div>
           <div className="container-main">
-            <h1 className="p-3 mx-4 my-32 text-2xl font-bold text-black">
-              SKINOVA! Building People&apos;s Dream Reality
+            <h1 className="p-3 mx-4 my-32 font-bold text-black">
+              <button>Explore Now!</button>
             </h1>
           </div>
 
