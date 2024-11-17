@@ -1,3 +1,4 @@
+import logo from '../assets/image.png'
 import { useState } from "react";
 import { FaBars } from "react-icons/fa"; // Added icon for better UX
 
@@ -16,7 +17,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between w-full max-w-screen-xl p-2 px-8 border border-white rounded-full shadow-md bg-white/90 sm:w-auto">
             {/* Logo */}
             <div className="flex items-center mr-10">
-              <img src="../../public/image.png" alt="Logo" className="w-10" />
+              <img src={logo} alt="Logo" className="w-10" />
               <h1 className="text-[#E5C04B] text-xl font-bold ml-2"><a href="../../index.html">SKINOVA</a></h1>
             </div>
 

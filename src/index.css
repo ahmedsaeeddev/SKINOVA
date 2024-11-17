@@ -24,7 +24,7 @@
 
 body {
   background-size: cover;
-  background-image: url("../public/banner.png");
+  background-image: url("./assets/banner.png");
   background-repeat: no-repeat;
   background-color: #e6c14b;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .container-main button {
-  background: #FBDB02;
+  background: #fbdb02;
   color: #090909;
   padding: 7px;
   border-radius: 5px;
@@ -65,7 +65,7 @@ body {
 }
 
 .container-main button:hover {
-  background: #FFC201;
+  background: #ffc201;
   color: #090909;
   cursor: pointer;
   transform: scale(1.05);
@@ -79,6 +79,15 @@ body {
   align-items: center;
   background-color: black;
   width: 100%;
+}
+
+.impact {
+  height: 201vh;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 html {

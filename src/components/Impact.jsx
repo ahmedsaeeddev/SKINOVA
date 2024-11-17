@@ -5,7 +5,7 @@ const OurImpact = () => {
     <>
       {/* <div className="flex items-center justify-center w-full h-auto px-6 py-16 impacts sm:py-24"> */}
       <div className="text-[#1a1a1a]">
-        <div className="w-full max-w-6xl text-center">
+        <div className="w-full max-w-6xl impact text-center">
           {/* Section Title */}
           <h2 className="text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-8">
             Our Impact
